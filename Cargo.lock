@@ -382,7 +382,7 @@ dependencies = [
 
 [[package]]
 name = "readability-text-cleanup"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "html2md",
  "lazy_static",
