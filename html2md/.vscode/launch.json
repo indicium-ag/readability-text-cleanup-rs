@@ -1,0 +1,27 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug unit-tests",
+            "type": "lldb",
+            "request": "launch",
+            "program": "./target/debug/deps/unit-c322eb3e597450f1",
+            "args": [ "test_escaping", "--nocapture" ],
+            "cwd": "${workspaceRoot}",
+            "sourceLanguages": ["rust"]
+        },
+        {
+            "name": "Debug integration-tests",
+            "type": "lldb",
+            "request": "launch",
+            "program": "./target/debug/deps/integration-2be29df99b0a42dd",
+            "args": [ "test_strong_inside_link", "--nocapture" ],
+            "cwd": "${workspaceRoot}",
+            "sourceLanguages": ["rust"]
+        }
+    ]
+}
