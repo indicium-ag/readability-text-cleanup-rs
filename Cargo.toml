@@ -10,7 +10,7 @@ description = "A Rust library for cleaning up text from HTML using Mozilla's Rea
 crate_type = ["cdylib"]
 
 [dependencies]
-html2md = { path = "./html2md" }
+html2md = { path = "./html2md", version = "0.2.14"}
 lazy_static = "^1.4.0"
 rayon = "^1.9.0"
 regex = "^1.10.3"
